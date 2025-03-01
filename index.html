@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>Flex Box</title>
+
+<head>Flex Box</head>
+
+<body>
+    <div class="flex-container">
+        <div class="cell">Mon</div>
+        <div class="cell">Tue</div>
+        <div class="cell">Wed</div>
+        <div class="cell">Thu</div>
+        <div class="cell">Fri</div>
+        <div class="cell">Sat</div>
+        <div class="cell">Sun</div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">1</div>
+        <div class="cell">2</div>
+        <div class="cell">3</div>
+        <div class="cell">4</div>
+        <div class="cell">5</div>
+        <div class="cell">6</div>
+        <div class="cell">7</div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">8</div>
+        <div class="cell">9</div>
+        <div class="cell">10</div>
+        <div class="cell">11</div>
+        <div class="cell">12</div>
+        <div class="cell">13</div>
+        <div class="cell">14</div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">15</div>
+        <div class="cell">16</div>
+        <div class="cell">17</div>
+        <div class="cell">18</div>
+        <div class="cell">19</div>
+        <div class="cell">20</div>
+        <div class="cell">21</div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">22</div>
+        <div class="cell">23</div>
+        <div class="cell">24</div>
+        <div class="cell">25</div>
+        <div class="cell">26</div>
+        <div class="cell">27</div>
+        <div class="cell">28</div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">29</div>
+        <div class="cell">30</div>
+        <div class="cell">31</div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="flex-container">
+        <div class="cell">Mon</div>
+        <div class="cell">Tue</div>
+        <div class="cell">Wed</div>
+        <div class="cell">Thu</div>
+        <div class="cell">Fri</div>
+        <div class="cell">Sat</div>
+        <div class="cell">Sun</div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .flex-container {
+        display: flex;
+    }
+
+    .cell {
+        display: flex;
+        padding: 5px;
+        border: 1px solid white;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        color: white;
+    }
+</style>
+
+<script>
+    // Var, Let, Const.
+    // Arithmetic, Operators, Conditional
+    let num1 = "Hello, 'World'"
+    let num2 = 'Hello, "World"'
+    let str1 = "Hello, 'World'"
+    let str2 = 'Hello, "World"'
+    var num3 = 1
+    var num4 = 2
+    const num5 = 1
+    const num6 = 2
+    let str = `Hello ${num2}`
+
+    console.log('Hello, World')
+    console.log(str)
+    console.log(num1)
+    console.log(str2)
+    console.log(num2)
+
+    let race = {
+        type: 'Yordle',
+        ageRange: '1000-2000',
+        heightRange: {
+            child: '3ft-4ft',
+            adult: '5ft-7ft',
+        }
+    }
+    var rank = {
+        bronze: '1',
+        silver: '2',
+        gold: '3',
+    }
+    console.log(race.type)
+    console.log(race.heightRange.adult)
+    console.log(rank.gold)
+    let name = 'Arrine Kyle Robles'
+    let age = 1000
+    let hobbies = ['Badminton', 'Baseball']
+    let message = `Im ${name}, ${age} years of age and I like ${hobbies[0]} and ${hobbies[1]}`
+
+    console.log(message)
+
+    var person = {
+        name: name,
+        age: age,
+        hobbies: hobbies,
+        education: {
+            elementary: 'Don Mariono Marcos Elementary School',
+            highSchool: 'Cor Jesu College',
+            college: 'Cor Jesu College'
+        }
+    }
+    let message1 = `Im ${person.name}, ${person.age} years of age and I like ${hobbies[0, 1]}.
+I completed my high school education at ${person.education.highSchool}`
+
+    console.log(message1)
+
+</script>
